@@ -1,0 +1,36 @@
+{
+    "clangd.compilationDatabasePath": "build",
+    "clangd.disableProgressNotifications": true,
+    "clangd.enabled": true,
+    "clangd.path": "/usr/bin/clangd",
+    "coc.preferences.extensionUpdateCheck": "daily",
+    "languageserver": {
+        "cmake": {
+            "command": "cmake-language-server",
+            "filetypes": [
+                "cmake"
+            ],
+            "initializationOptions": {
+                "buildDirectory": "build"
+            },
+            "rootPatterns": [
+                "build/"
+            ]
+        },
+        "groovy": {
+            "command": "java",
+            "args": [
+                "-jar",
+                "/data/home/felixwluo/.config/coc/extensions/node_modules/coc-groovy/server/groovy-language-server-all.jar"
+            ],
+            "filetypes": [
+                "groovy"
+            ]
+        }
+    },
+    "python.linting.pylintEnabled": true,
+    "python.pythonPath": "/usr/bin/python3",
+    "suggest.enablePreselect": false,
+    "suggest.noselect": true,
+    "suggest.timeout": 5000
+}
