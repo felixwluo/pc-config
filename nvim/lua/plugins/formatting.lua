@@ -8,6 +8,7 @@ return {
                     go = { "goimports", "gofumpt" },
                     json = { "jq" },
                     cmake = { "cmakelang" },
+                    sh = { "shfmt" },
                 },
             }
             return opts

@@ -5,6 +5,7 @@ return {
             python = { "pylint" },
             go = { "golangcilint" },
             json = { "jsonlint" },
+            sh = { "shellcheck" },
         },
     }
 }
