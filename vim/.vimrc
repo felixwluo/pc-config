@@ -99,7 +99,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'Shougo/echodoc.vim'
     Plug 'mhinz/vim-startify'  " 启动页面插件
-  "   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     " Plug 'junegunn/fzf.vim'
     Plug 'lfv89/vim-interestingwords'
     Plug 'ericcurtin/CurtineIncSw.vim' " 在c和h文件直接来回切换
