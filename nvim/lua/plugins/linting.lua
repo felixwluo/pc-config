@@ -3,7 +3,7 @@ return {
     opts = {
         linters_by_ft = {
             python = { "pylint" },
-            go = { "golangcilint" },
+            -- go = { "golangcilint" },
             json = { "jsonlint" },
             sh = { "shellcheck" },
         },

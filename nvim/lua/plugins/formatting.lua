@@ -5,9 +5,9 @@ return {
             local opts = {
                 formatters_by_ft = {
                     python = { "isort", "black" },
-                    go = { "goimports", "gofumpt" },
+                    -- go = { "goimports", "gofumpt" },
                     json = { "jq" },
-                    cmake = { "cmakelang" },
+                    -- cmake = { "cmakelang" },
                     sh = { "shfmt" },
                 },
             }
